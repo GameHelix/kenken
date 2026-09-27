@@ -1,0 +1,16 @@
+{
+  "VIRUSTOTAL_API_KEY": "",
+  "SECURITYTRAILS_API_KEY": "",
+  "SHODAN_API_KEY": "",
+  "CENSYS_API_ID": "",
+  "CENSYS_API_SECRET": "",
+  "CHAOS_API_KEY": "",
+  "NETLAS_API_KEY": "",
+  "BEVIGIL_API_KEY": "",
+  "LEAKIX_API_KEY": "",
+  "GITHUB_TOKEN": "",
+  "CERTSPOTTER_API_KEY": "",
+  "HACKERTARGET_API_KEY": "",
+  "OTX_API_KEY": "",
+  "URLSCAN_API_KEY": ""
+}

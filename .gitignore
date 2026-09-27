@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+keys.json
+*.json.local
+report.json
+report.csv
+subs.txt
+.DS_Store
+# scan output - keep results out of the repo
+*_subdomains.txt
+*_report.json
+*_report.csv
+*_live.txt
