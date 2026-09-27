@@ -14,10 +14,11 @@ class SubdomainCenter(Source):
         )
         if isinstance(data, list):
             for name in data:
-                name = str(name)
+                labels = str(name).split(".")
                 # subdomain.center renders certificate wildcards '*.x' as 'wildcard.x'
-                if name.startswith("wildcard."):
-                    name = "*." + name[len("wildcard."):]
+                # (sometimes 'www.wildcard.x'); map them back to the real parent.
+                if "wildcard" in labels[:-2]:
+                    name = "*." + ".".join(labels[labels.index("wildcard") + 1:])
                 yield name
 
 
